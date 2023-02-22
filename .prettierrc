@@ -1,0 +1,19 @@
+{
+    "printWidth": 120,
+    "tabWidth": 4,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "semi": true,
+
+    "importOrder": [
+        "<THIRD_PARTY_MODULES>",
+        "^@public/(.*)$",
+        "^@src/components/(.*)$",
+        "^@src/hooks/(.*)$",
+        "^@src/@(.*)",
+        "^@src/api/(.*)$",
+        "^[./]"
+    ],
+    "importOrderSeparation": true,
+    "importOrderSortSpecifiers": true
+}
